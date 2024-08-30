@@ -1,0 +1,45 @@
+:root{
+  --body-background: #f4f4f9;
+  --btn-primary: #5cabf5;
+}
+* {
+ box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-background);
+}
+
+.container{
+  background-color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#todoInput{
+  width: 75%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+
+}
+
+#addTodo{
+  color: white;
+  border: none;
+  background-color: var(--btn-primary);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
